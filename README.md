@@ -41,7 +41,8 @@ L’objectif est de présenter mon **parcours académique**, mes **compétences 
 ## 📬 Auteur
 👤 **BOALY Lohourignon Prospère Albrigth**  
 - Étudiant en Master Big Data Analytics (UVCI)  
-- [LinkedIn](https://www.linkedin.com/) *(ajoute ton lien)*  
+- [LinkedIn](https://www.linkedin.com/) *(www.linkedin.com/in/
+albrigth-boaly-058455330)*  
 - [Email](mailto:albrigthboaly303@gmail.com)  
 
 ---
