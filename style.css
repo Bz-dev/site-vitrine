@@ -1,61 +1,37 @@
-/* Style global */
-body {
-  font-family: Arial, sans-serif;
+/* Menu de navigation */
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #1e3a8a;
+  padding: 1rem;
+  z-index: 1000;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
-  background: #f9f9f9;
-  color: #333;
 }
 
-/* En-tête */
-header {
-  background: #1e3a8a;
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
   color: white;
-  text-align: center;
-  padding: 2rem;
-}
-
-header h1 {
-  margin: 0;
-}
-
-/* Sections */
-section {
-  padding: 2rem;
-  max-width: 900px;
-  margin: auto;
-}
-
-h2 {
-  color: #1e3a8a;
-  margin-bottom: 1rem;
-  border-bottom: 2px solid #1e3a8a;
-  display: inline-block;
-  padding-bottom: 0.3rem;
-}
-
-/* Liste des compétences */
-ul {
-  list-style-type: square;
-  padding-left: 20px;
-}
-
-/* Liens */
-a {
-  color: #1e3a8a;
   text-decoration: none;
+  font-weight: bold;
 }
 
-a:hover {
+nav ul li a:hover {
   text-decoration: underline;
 }
 
-/* Pied de page */
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #333;
-  color: white;
-  margin-top: 2rem;
+/* Décalage pour ne pas cacher le header */
+header {
+  margin-top: 70px;
 }
